@@ -19,7 +19,7 @@ pipeline {
 		stage('Run Game') {
 			steps {
 				echo "pipeline executed successfully"
-				sh 'python3 --version
+				sh 'python3 --version'
 			}
 		}
 	}
